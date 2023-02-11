@@ -1,0 +1,338 @@
+APP_USER CLASS
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Online_shopping
+{
+    internal class App_user
+    {
+        private int USER_ID;
+
+        public int User_id
+        {
+            get { return USER_ID; }
+            set { USER_ID = value; }
+        }
+
+        private string NAME;
+
+        public string Name
+        {
+            get { return NAME; }
+            set { NAME = value; }
+        }
+        private string EMAIL_ID;
+
+        public string Email_id
+        {
+            get { return EMAIL_ID; }
+            set { EMAIL_ID = value; }
+        }
+        private string PHONENUMBER;
+
+        public string Phonenumber
+        {
+            get { return PHONENUMBER; }
+            set { PHONENUMBER = value; }
+        }
+        private string PASSWORD;
+
+        public string Password
+        {
+            get { return PASSWORD; }
+            set { PASSWORD = value; }
+        }
+
+
+
+    }
+}
+-------------------------------------------------------------
+CUSTOMERS CLASS
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Online_shopping
+{
+    internal class Customers
+    {
+        private int CUSTOMER_ID;
+
+        public int Customer_id
+        {
+            get { return CUSTOMER_ID; }
+            set { CUSTOMER_ID = value; }
+        }
+        private string NAME;
+
+        public string Name
+        {
+            get { return NAME; }
+            set { NAME = value; }
+        }
+        private string EMAIL_ID;
+
+        public string Email_id
+        {
+            get { return EMAIL_ID; }
+            set { EMAIL_ID = value; }
+        }
+        private string PASSWORD;
+
+        public string Password
+        {
+            get { return PASSWORD; }
+            set { PASSWORD = value; }
+        }
+        private string PHONENUMBER;
+
+        public string Phonenumber
+        {
+            get { return PHONENUMBER; }
+            set { PHONENUMBER = value; }
+        }
+
+    }
+}
+-----------------------------------------------
+SELLERS CLASS
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Online_shopping
+{
+    internal class Sellers
+    {
+        private int SELLER_ID;
+
+        public int Seller_id
+        {
+            get { return SELLER_ID; }
+            set { SELLER_ID = value; }
+        }
+        private string NAME;
+
+        public string Name
+        {
+            get { return NAME; }
+            set { NAME = value; }
+        }
+        private string EMAIL_ID;
+
+        public string Email_id
+        {
+            get { return EMAIL_ID; }
+            set { EMAIL_ID = value; }
+        }
+        private string PASSWORD;
+
+        public string Password
+        {
+            get { return PASSWORD; }
+            set { PASSWORD = value; }
+        }
+        private string PHONENUMBER;
+
+        public string Phonenumber
+        {
+            get { return PHONENUMBER; }
+            set { PHONENUMBER = value; }
+        }
+
+    }
+}
+----------------------------------------------
+PRODUCTS CLASS
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Online_shopping
+{
+    internal class Sellers
+    {
+        private int SELLER_ID;
+
+        public int Seller_id
+        {
+            get { return SELLER_ID; }
+            set { SELLER_ID = value; }
+        }
+        private string NAME;
+
+        public string Name
+        {
+            get { return NAME; }
+            set { NAME = value; }
+        }
+        private string EMAIL_ID;
+
+        public string Email_id
+        {
+            get { return EMAIL_ID; }
+            set { EMAIL_ID = value; }
+        }
+        private string PASSWORD;
+
+        public string Password
+        {
+            get { return PASSWORD; }
+            set { PASSWORD = value; }
+        }
+        private string PHONENUMBER;
+
+        public string Phonenumber
+        {
+            get { return PHONENUMBER; }
+            set { PHONENUMBER = value; }
+        }
+
+    }
+}
+------------------------------------------------
+ORDER DETAILS CLASS
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Online_shopping
+{
+    internal class Order_details
+    {
+        private int ORDERID;
+
+        public int OrderId
+        {
+            get { return ORDERID; }
+            set { ORDERID = value; }
+        }
+        private int CUSTOMER_ID;
+
+        public int Customer_Id
+        {
+            get { return CUSTOMER_ID; }
+            set { CUSTOMER_ID = value; }
+        }
+        private int PRODUCTID;
+
+        public int ProductId
+        {
+            get { return PRODUCTID; }
+            set { PRODUCTID = value; }
+        }
+        private int ADDRESSID;
+
+        public int AddressId
+        {
+            get { return ADDRESSID; }
+            set { ADDRESSID = value; }
+        }
+        private int QUANTITY;
+
+        public int Quantity
+        {
+            get { return QUANTITY; }
+            set { QUANTITY = value; }
+        }
+        private double TOTALPRICE;
+
+        public double Totalprice
+        {
+            get { return TOTALPRICE; }
+            set { TOTALPRICE = value; }
+        }
+        private DateTime ORDERDATE;
+
+        public DateTime Orderdate
+        {
+            get { return ORDERDATE; }
+            set { ORDERDATE = value; }
+        }
+        private string ORDERSTATUS;
+
+        public string Orderstatus
+        {
+            get { return ORDERSTATUS; }
+            set { ORDERSTATUS = value; }
+        }
+
+
+
+
+    }
+}
+----------------------------------------------
+ADDRESS CLASS
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Online_shopping
+{
+    internal class Address
+    {
+
+        private int ORDERID;
+
+        public int OrderId
+        {
+            get { return ORDERID; }
+            set { ORDERID = value; }
+        }
+        private int CUSTOMER_ID;
+
+        public int Customer_Id
+        {
+            get { return CUSTOMER_ID; }
+            set { CUSTOMER_ID = value; }
+        }
+        private int ProductID;
+
+        public int ProductId
+        {
+            get { return ProductID; }
+            set { ProductID = value; }
+        }
+        private int ADDRESSID;
+
+        public int AddressId
+        {
+            get { return ADDRESSID; }
+            set { ADDRESSID = value; }
+        }
+        private int QUANTITY;
+
+        public int Quantity
+        {
+            get { return QUANTITY; }
+            set { QUANTITY = value; }
+        }
+        private double TOTALPRICE;
+
+        public double Totalprice
+        {
+            get { return TOTALPRICE; }
+            set { TOTALPRICE = value; }
+        }
+        private DateTime ORDERDATE;
+
+        public DateTime Orderdate
+        {
+            get { return ORDERDATE; }
+            set { ORDERDATE = value; }
+        }
+        private string ORDERSTATUS;
+
+        public string Orderstatus
+        {
+            get { return ORDERSTATUS; }
+            set { ORDERSTATUS = value; }
+        }
+
+
+    }
+}
+-------------------------------------------------
